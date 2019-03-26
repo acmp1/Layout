@@ -1,0 +1,47 @@
+
+body{
+	font-family: Arial;
+	color: white;
+	background-color: #1993FF;
+}
+
+/* CSS box model */
+.box{
+	border: 25px solid white;
+	padding: 25px;
+	margin: 50px;
+}
+
+/* Flex */
+#flex-container{
+	display: flex;
+	background-color: #FF8519;
+}
+
+/* Screens < 800 px */
+@media all and (max-width: 800px) {
+  #flex-container {
+    /* By default row, changing to column */
+    flex-direction: column;
+  }
+}
+
+/* Grid */
+.grid-box{
+	border: 25px solid white;
+	padding: 25px;
+}
+
+#grid-box-center{
+	background-color: #FF19CB;
+	grid-column: 2;
+  	grid-row: 1 / 3;
+}
+
+#grid-container {
+    display: grid;
+	grid-template-columns: 300px 300px 300px;
+	grid-template-rows: 400px 400px;
+	grid-auto-flow: row;
+    background-color: #CBFF19
+}
