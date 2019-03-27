@@ -77,3 +77,19 @@
 }
 
 .overflow-hidden { overflow: hidden; }
+
+.jumbotron{
+  border-radius: 0;
+}
+
+.footer {
+  bottom: 0;
+  width: 100%;
+}
+
+.imgRatio{
+  background-color: #333;
+  height: 0;
+  padding-bottom: 56.25%;
+  overflow: hidden;
+}
